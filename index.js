@@ -36,6 +36,12 @@ const questions = [
     },
     {
         type: "input",
+        name: "contributing",
+        message: "Contributors:"
+
+    },
+    {
+        type: "input",
         name: "testCommands",
         message: "Enter Test Commands"
     }

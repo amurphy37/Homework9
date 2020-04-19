@@ -52,23 +52,23 @@ module.exports = function generateMarkdown(response,data) {
   // [Qusetions](#Questions)
 
   #Description:
-  # ${response.description}
+  ${response.description}
   #Installation:
-  # ${response.installation}
+  ${response.installation}
   #Usage:
-  # ${response.usage}
+  ${response.usage}
   #LicenseBadge:
-  # ${renderLicenseBadge(response.license, response.github, response.title)}
+  ${renderLicenseBadge(response.license, response.github, response.title)}
   #License:
-  # ${renderLicenseSection(data.license)}
+   ${renderLicenseSection(data.license)}
   #Contributing:
-  # ${response.contributing}
+   ${response.contributing}
   #Test Commands:
-  # ${response.testCommands}
+   ${response.testCommands}
   #Questions:
-  #${response.email}
+  ${response.email}
 
   ![Avatar Image]
-  ${data.avatar_url}
+  (${data.avatar_url})
   `;
 }
