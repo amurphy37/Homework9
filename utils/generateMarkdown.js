@@ -29,46 +29,46 @@ module.exports = function generateMarkdown(response,data) {
   // Creating format for markdown file. File will incldue username, table of contents, descripion, installation method, usage method, license, contributors, test methods, test commands
   return `
 
-  Project Title: \
-  ${response.title}
+  Project Title: 
+  //${response.title}
 
-  #Table of Contents:
-  [Title](#Project-Title)
+  //#Table of Contents:
+  //[Title](#Project-Title)
 
-  [Description](#Description)
+  //[Description](#Description)
 
-  [Installation](#Installation)
+  //[Installation](#Installation)
 
-  [Usage](#Usage)
+  //[Usage](#Usage)
 
-  [License](#License)
+  //[License](#License)
 
-  [Contributing](#Contributing)
+  //[Contributing](#Contributing)
 
-  [Test Commands](#Test-Commands)
+  //[Test Commands](#Test-Commands)
 
-  [Github Badges](#Github-Badges)
+  //[Github Badges](#Github-Badges)
 
-  [Questions](#Questions)
+  //[Questions](#Questions)
 
-  #Description:
-  ${response.description}
-  #Installation:
-  ${response.installation}
-  #Usage:
-  ${response.usage}
-  #LicenseBadge:
-  ${renderLicenseBadge(response.license, response.github, response.title)}
-  #License:
-   ${renderLicenseSection(data.license)}
-  #Contributing:
-   ${response.contributing}
-  #Test Commands:
-   ${response.testCommands}
-  #Questions:
-  ${response.email}
+  //#Description:
+  //${response.description}
+  //#Installation:
+  //${response.installation}
+  //#Usage:
+  //${response.usage}
+  //#LicenseBadge:
+  //${renderLicenseBadge(response.license, response.github, response.title)}
+  //#License:
+  // ${renderLicenseSection(data.license)}
+  //#Contributing:
+   //${response.contributing}
+  //#Test Commands:
+  // ${response.testCommands}
+  //#Questions:
+  //${response.email}
 
-  ![Avatar Image] \
-  (${data.avatar_url})
+  //![Avatar Image] 
+  //(${data.avatar_url})
   `;
 }
