@@ -1,7 +1,7 @@
 
 
   #Project Title:
-  new project
+  awesome project
 
   #Table of Contents:
   [Title](#Project-Title)
@@ -23,13 +23,13 @@
   // [Qusetions](#Questions)
 
   #Description:
-  # description of awesome new repo!
+  # description
   #Installation:
   # npm i
   #Usage:
-  # usg command
+  # usg
   #LicenseBadge:
-  # [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/new-project)
+  # [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/awesome-project)
   #License:
   # ## License
 
@@ -41,5 +41,6 @@ This project is licensed under the undefined license.
   #Questions:
   #amurphy37@gmail.com
 
-  ![Avatar Image]https://avatars3.githubusercontent.com/u/11791361?v=4
+  ![Avatar Image]
+  https://avatars3.githubusercontent.com/u/11791361?v=4
   

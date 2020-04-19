@@ -68,6 +68,7 @@ module.exports = function generateMarkdown(response,data) {
   #Questions:
   #${response.email}
 
-  ![Avatar Image]${data.avatar_url}
+  ![Avatar Image]
+  ${data.avatar_url}
   `;
 }
