@@ -1,7 +1,7 @@
 
 
   Project Title:
-  github
+  amazing project
 
   #Table of Contents:
   [Title](#Project-Title)
@@ -22,25 +22,41 @@
 
   [Questions](#Questions)
 
-  #Description:
-  test
-  #Installation:
-  test
-  #Usage:
-  test
-  #LicenseBadge:
-  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/github)
-  #License:
+  #Description:  
+
+  description  
+
+  #Installation:  
+
+  test  
+
+  #Usage:  
+
+  test  
+
+  #LicenseBadge:  
+
+  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/amazing-project)  
+
+  #License:  
+
    ## License
 
-This project is licensed under the undefined license.
-  #Contributing:
-   test
-  #Test Commands:
-   tes
-  #Questions:
-  test
+This project is licensed under the undefined license.  
 
-  ![Avatar Image]
+  #Contributing:  
+
+   test  
+
+  #Test Commands:  
+
+   test  
+
+  #Questions:  
+
+  amurphy37@gmail.com
+
+  ![Avatar Image]  
+  
   (https://avatars3.githubusercontent.com/u/11791361?v=4)
   

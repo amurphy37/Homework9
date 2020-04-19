@@ -51,24 +51,40 @@ module.exports = function generateMarkdown(response,data) {
 
   [Questions](#Questions)
 
-  #Description:
-  ${response.description}
-  #Installation:
-  ${response.installation}
-  #Usage:
-  ${response.usage}
-  #LicenseBadge:
-  ${renderLicenseBadge(response.license, response.github, response.title)}
-  #License:
-   ${renderLicenseSection(data.license)}
-  #Contributing:
-   ${response.contributing}
-  #Test Commands:
-   ${response.testCommands}
-  #Questions:
+  #Description:  
+
+  ${response.description}  
+
+  #Installation:  
+
+  ${response.installation}  
+
+  #Usage:  
+
+  ${response.usage}  
+
+  #LicenseBadge:  
+
+  ${renderLicenseBadge(response.license, response.github, response.title)}  
+
+  #License:  
+
+   ${renderLicenseSection(data.license)}  
+
+  #Contributing:  
+
+   ${response.contributing}  
+
+  #Test Commands:  
+
+   ${response.testCommands}  
+
+  #Questions:  
+
   ${response.email}
 
-  ![Avatar Image]
+  ![Avatar Image]  
+  
   (${data.avatar_url})
   `;
 }
