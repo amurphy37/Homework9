@@ -29,10 +29,10 @@ module.exports = function generateMarkdown(response,data) {
   // Creating format for markdown file. File will incldue username, table of contents, descripion, installation method, usage method, license, contributors, test methods, test commands
   return `
 
-  Project Title:
+  ## Project Title:
   ${response.title}
 
-  #Table of Contents:
+  ## Table of Contents:
   [Title](#Project-Title)
 
   [Description](#Description)

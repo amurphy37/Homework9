@@ -56,9 +56,14 @@ function init() {
    inquirer.prompt(questions)
    .then(function(response){
            api.getUser(response.username).then(function(data){
+            //    fs.writeFile("githubProfile.pdf", generatePDF(response, data.data), (err)=> {
+            //        if (err) {
+            //            throw new Error("Error. Could not generate PDF file")
+            //        }
+            //    })
                fs.writeFile("README.md", generateMD(response, data.data), (err) => {
                    if (err) {
-                   throw new Error("Error. Could not generate file")
+                   throw new Error("Error. Could not generate Readme file")
                }
                console.log("Success!")
             });

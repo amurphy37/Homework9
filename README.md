@@ -1,56 +1,9 @@
+Homework 9 : README Generator
 
+This application will prompt the user for Github username, project title, email address, a brief project description, install commands, usage commands or instructions,k contributors and test commands to generate a readme.md file for a repo.
 
-  Project Title:
-  test
+The application will run on     node index.js
 
-  #Table of Contents:
-  [Title](#Project-Title)
+Animation of application:
 
-  [Description](#Description)
-
-  [Installation](#Installation)
-
-  [Usage](#Usage)
-
-  [License](#License)
-
-  [Contributing](#Contributing)
-
-  [Test Commands](#Test-Commands)
-
-  [Github Badges](#Github-Badges)
-
-  [Questions](#Questions)
-
-  ## Description:  
-
-  jd  
-
-  ## Installation:  
-
-  jd  
-
-  ## Usage:  
-
-  jd  
-   
-  ## License
-
-This project is licensed under the undefined license.  
-  
-  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/test)  
-
-  ## Contributing:  
-
-   jd  
-
-  ## Test Commands:  
-
-   jd  
-
-  ## Questions:  
-
-  am
-
- ![Avatar Image](https://avatars3.githubusercontent.com/u/11791361?v=4)
- 
+![Animation](./assets/applicationDemo.gif)
