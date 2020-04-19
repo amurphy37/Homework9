@@ -62,14 +62,10 @@ module.exports = function generateMarkdown(response,data) {
   ## Usage:  
 
   ${response.usage}  
-
-  ## LicenseBadge:  
-
+   
+  ${renderLicenseSection(data.license)}  
+  
   ${renderLicenseBadge(response.license, response.github, response.title)}  
-
-  ## License:  
-
-   ${renderLicenseSection(data.license)}  
 
   ## Contributing:  
 
@@ -83,8 +79,6 @@ module.exports = function generateMarkdown(response,data) {
 
   ${response.email}
 
-  ![Avatar Image]  
-
-  (${data.avatar_url})
+  <img src=${data.avatar_url}>
   `;
 }

@@ -1,7 +1,7 @@
 
 
   Project Title:
-  project title
+  title
 
   #Table of Contents:
   [Title](#Project-Title)
@@ -24,7 +24,7 @@
 
   ## Description:  
 
-  description  
+   description  
 
   ## Installation:  
 
@@ -33,20 +33,16 @@
   ## Usage:  
 
   usg  
-
-  ## LicenseBadge:  
-
-  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/project-title)  
-
-  ## License:  
-
-   ## License
+   
+  ## License
 
 This project is licensed under the undefined license.  
+  
+  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/title)  
 
   ## Contributing:  
 
-   me, myself and i  
+   me  
 
   ## Test Commands:  
 
@@ -54,9 +50,7 @@ This project is licensed under the undefined license.
 
   ## Questions:  
 
-  amurphy37@gmail.com
+  amurphy37@gmaillcom
 
-  ![Avatar Image]  
-
-  (https://avatars3.githubusercontent.com/u/11791361?v=4)
+  <img src=https://avatars3.githubusercontent.com/u/11791361?v=4>
   
