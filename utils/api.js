@@ -11,9 +11,7 @@ const api = {
       .catch(err => {
         console.log("User Not Found")
         process.exit(1);
-      });
-
+      })
   }
 };
-
 module.exports = api;

@@ -22,56 +22,52 @@ This project is licensed under the ${license} license.`
 }
 
 // Development will happen in generate markdown
-function generateMarkdown(response,data) {
+module.exports = function generateMarkdown(response,data) {
+  // console.log(response);
+  // console.log(data);
+
   // Creating format for markdown file. File will incldue username, table of contents, descripion, installation method, usage method, license, contributors, test methods, test commands
   return `
-
-  #Github Username:
-  # ${data.username}
 
   #Table of Contents:
   [Title](#Project-Title)
 
-  [Description](#Description)
+  // [Description](#Description)
 
-  [Installation](#Installation)
+  // [Installation](#Installation)
 
-  [Usage](#Usage)
+  // [Usage](#Usage)
 
-  [License](#License)
+  // [License](#License)
 
-  [Contributing](#Contributing)
+  // [Contributing](#Contributing)
 
-  [Test Commands](#Test-Commands)
+  // [Test Commands](#Test-Commands)
 
-  [Github Badges](#Github-Badges)
+  // [Github Badges](#Github-Badges)
 
-  [Qusetions](#Questions)
-
-  // Pulling in data from api call (data) and inquirere prompt responses (response) to populate readme file content
+  // [Qusetions](#Questions)
 
   #Project Title: 
-  # ${data.title}
+  ${response.title}
   #Description:
   # ${response.description}
   #Installation:
   # ${response.installation}
   #Usage:
   # ${response.usage}
-  #License
+  #LicenseBadge:
+  # ${renderLicenseBadge(response.license, response.github, response.title)}
+  #License:
+  # ${renderLicenseSection(data.license)}
   #Contributing:
   # ${response.contributing}
   #Test Commands:
-  # ${respones.testCommands}
+  # ${response.testCommands}
   #Github Badges:
   # ${data.badges}
   #Questions:
-  #${data.email}
-  #${data.avatar}
+  #${response.email}
+  #${data.avatar_url}
   `;
-
-
-
 }
-
-module.exports.generateMarkdown(reponse, data) = generateMarkdown(response, data);
