@@ -51,35 +51,35 @@ module.exports = function generateMarkdown(response,data) {
 
   [Questions](#Questions)
 
-  ##Description:  
+  ## Description:  
 
   ${response.description}  
 
-  ##Installation:  
+  ## Installation:  
 
   ${response.installation}  
 
-  ##Usage:  
+  ## Usage:  
 
   ${response.usage}  
 
-  ##LicenseBadge:  
+  ## LicenseBadge:  
 
   ${renderLicenseBadge(response.license, response.github, response.title)}  
 
-  ##License:  
+  ## License:  
 
    ${renderLicenseSection(data.license)}  
 
-  ##Contributing:  
+  ## Contributing:  
 
    ${response.contributing}  
 
-  ##Test Commands:  
+  ## Test Commands:  
 
    ${response.testCommands}  
 
-  ##Questions:  
+  ## Questions:  
 
   ${response.email}
 

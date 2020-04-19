@@ -1,7 +1,7 @@
 
 
   Project Title:
-  title
+  project title
 
   #Table of Contents:
   [Title](#Project-Title)
@@ -22,37 +22,37 @@
 
   [Questions](#Questions)
 
-  ##Description:  
+  ## Description:  
 
   description  
 
-  ##Installation:  
+  ## Installation:  
 
-  npm   
+  npm i  
 
-  ##Usage:  
+  ## Usage:  
 
   usg  
 
-  ##LicenseBadge:  
+  ## LicenseBadge:  
 
-  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/test/title)  
+  [![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)](https://github.com/amurphy37/project-title)  
 
-  ##License:  
+  ## License:  
 
    ## License
 
 This project is licensed under the undefined license.  
 
-  ##Contributing:  
+  ## Contributing:  
 
-   me, myself and I  
+   me, myself and i  
 
-  ##Test Commands:  
+  ## Test Commands:  
 
    test  
 
-  ##Questions:  
+  ## Questions:  
 
   amurphy37@gmail.com
 
