@@ -29,27 +29,27 @@ module.exports = function generateMarkdown(response,data) {
   // Creating format for markdown file. File will incldue username, table of contents, descripion, installation method, usage method, license, contributors, test methods, test commands
   return `
 
-  #Project Title:
+  Project Title: \
   ${response.title}
 
   #Table of Contents:
   [Title](#Project-Title)
 
-  // [Description](#Description)
+  [Description](#Description)
 
-  // [Installation](#Installation)
+  [Installation](#Installation)
 
-  // [Usage](#Usage)
+  [Usage](#Usage)
 
-  // [License](#License)
+  [License](#License)
 
-  // [Contributing](#Contributing)
+  [Contributing](#Contributing)
 
-  // [Test Commands](#Test-Commands)
+  [Test Commands](#Test-Commands)
 
-  // [Github Badges](#Github-Badges)
+  [Github Badges](#Github-Badges)
 
-  // [Qusetions](#Questions)
+  [Questions](#Questions)
 
   #Description:
   ${response.description}
@@ -68,7 +68,7 @@ module.exports = function generateMarkdown(response,data) {
   #Questions:
   ${response.email}
 
-  ![Avatar Image]
+  ![Avatar Image] \
   (${data.avatar_url})
   `;
 }
