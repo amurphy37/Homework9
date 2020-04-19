@@ -16,7 +16,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "github",
+        name: "email",
         message: "What is the email address associated with your Github account?"
     },
     {
@@ -33,6 +33,11 @@ const questions = [
         type: "input",
         name: "usage",
         message: "Usage command or instruction:"
+    },
+    {
+        type: "input",
+        name: "testCommands",
+        message: "Enter Test Commands"
     }
 
 

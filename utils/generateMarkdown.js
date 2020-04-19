@@ -29,6 +29,9 @@ module.exports = function generateMarkdown(response,data) {
   // Creating format for markdown file. File will incldue username, table of contents, descripion, installation method, usage method, license, contributors, test methods, test commands
   return `
 
+  #Project Title:
+  ${response.title}
+
   #Table of Contents:
   [Title](#Project-Title)
 
@@ -48,8 +51,6 @@ module.exports = function generateMarkdown(response,data) {
 
   // [Qusetions](#Questions)
 
-  #Project Title: 
-  ${response.title}
   #Description:
   # ${response.description}
   #Installation:
@@ -64,10 +65,9 @@ module.exports = function generateMarkdown(response,data) {
   # ${response.contributing}
   #Test Commands:
   # ${response.testCommands}
-  #Github Badges:
-  # ${data.badges}
   #Questions:
   #${response.email}
-  #${data.avatar_url}
+
+  ![Avatar Image]${data.avatar_url}
   `;
 }
