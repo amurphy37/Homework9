@@ -79,6 +79,6 @@ module.exports = function generateMarkdown(response,data) {
 
   ${response.email}
 
-  <img src=${data.avatar_url}>
-  `;
+ ![Avatar Image](${data.avatar_url})
+ `
 }
